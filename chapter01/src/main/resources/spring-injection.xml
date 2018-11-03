@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--<bean id = "injectionService" class = "com.learn.spring.injection.InjectionServiceImpl">-->
+        <!--&lt;!&ndash;属性注入的方式进行注入，injectionService中需要有相关的set方法&ndash;&gt;-->
+        <!--<property name="injectionDao" ref="injectionDao"></property>-->
+
+    <!--</bean>-->
+
+    <bean id = "injectionService" class = "com.learn.spring.injection.InjectionServiceImpl">
+        <!--构造器的方式进行注入，injectionService中需要有相关的构造方法-->
+        <constructor-arg name="injectionDao" ref="injectionDao"></constructor-arg>
+        <!--<property name="injectionDao" ref="injectionDao"></property>-->
+
+    </bean>
+
+    <bean id="injectionDao" class="com.learn.spring.injection.InjectionDaoImpl"></bean>
+</beans>

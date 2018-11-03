@@ -3,7 +3,8 @@ package com.test.helloworld;
 import com.learn.spring.SpringDemo;
 import com.test.BaseTest;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.junit.runner.RunWith;
+import org.junit.runners.BlockJUnit4ClassRunner;
 
 /**
  * autor:liman
@@ -11,13 +12,16 @@ import org.springframework.beans.factory.annotation.Autowired;
  * mail:657271181@qq.com
  * comment:
  */
+@RunWith(BlockJUnit4ClassRunner.class)
 public class HelloworldTest extends BaseTest {
 
-    @Autowired
-    private SpringDemo springDemo;
+    public HelloworldTest(){
+        super("classpath*:applicationContext.xml");
+    }
 
     @Test
-    public void testHelloworld(){
+    public void testHellworld(){
+        SpringDemo springDemo = super.getBean("springDemo");
         springDemo.test();
     }
 
