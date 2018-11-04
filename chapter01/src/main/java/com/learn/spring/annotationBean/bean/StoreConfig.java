@@ -16,7 +16,7 @@ public class StoreConfig {
      * 如果不指定名称，默认是方法名作为bean的id
      * @return
      */
-    @Bean("stringStore")
+    @Bean(name="stringStore",initMethod = "initMethod",destroyMethod = "destroyMethod")
     public Store getStringStore(){
         return new StringStore();
     }

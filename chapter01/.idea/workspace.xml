@@ -25,9 +25,13 @@
       <file leaf-file-name="StringStore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StringStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="336">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="29" />
               <folding>
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#253#254#0" expanded="true" />
               </folding>
@@ -35,20 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigurationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConfigurationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/ConfigurationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+            <state relative-caret-position="336">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoreConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StoreConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StoreConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#384#385#0" expanded="true" />
@@ -77,9 +81,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/test/annotationBean/QualifyDemoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/qualify/QualifyDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/Store.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/annotationBean/ConfigurationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StringStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StoreConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/test/annotationBean/ConfigurationTest.java" />
       </list>
     </option>
   </component>
@@ -391,7 +395,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540998577285</updated>
       <workItem from="1540998582803" duration="24000" />
-      <workItem from="1541316074294" duration="2040000" />
+      <workItem from="1541316074294" duration="2201000" />
     </task>
     <servers />
   </component>
@@ -423,9 +427,12 @@
     <history-entry file="ConfigurationTest_testConfiguration - 2018.11.04 at 15h 54m 49s.xml">
       <configuration name="ConfigurationTest.testConfiguration" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConfigurationTest_testConfiguration - 2018.11.04 at 15h 55m 25s.xml">
+      <configuration name="ConfigurationTest.testConfiguration" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2064000" />
+    <option name="totallyTimeSpent" value="2225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
@@ -448,11 +455,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33560863" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33560863" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.39666668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39666668" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -546,11 +553,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/ConfigurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StringStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="336">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="29" />
           <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
           </folding>
@@ -559,20 +577,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StoreConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#384#385#0" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/ConfigurationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
         </state>
       </provider>
     </entry>
