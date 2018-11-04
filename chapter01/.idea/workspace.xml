@@ -13,52 +13,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyPropertyManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/propertiesAnno/MyPropertyManager.java">
+      <file leaf-file-name="GenAutowiredDemoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/GenAutowiredDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertyConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/propertiesAnno/PropertyConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="286">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#543#551#1" expanded="true" />
-                <element signature="e#697#715#1" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyConfigTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/PropertyConfigTest.java">
+      <file leaf-file-name="StoreConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StoreConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="288">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbctest.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbctest.properties">
+      <file leaf-file-name="GenStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="264">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenStoreConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStoreConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenIntegerStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenIntegerStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="48" />
+              <folding>
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenStringStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStringStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/TestStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -89,6 +121,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/propertiesAnno/MyPropertyManager.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbctest.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/propertiesAnno/PropertyConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/Store.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenIntegerStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStringStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/TestStore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/annotationBean/GenAutowiredDemoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStoreConfig.java" />
       </list>
     </option>
   </component>
@@ -101,7 +140,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -185,7 +226,19 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="annotationBean" type="462c0819:PsiDirectoryNode" />
-              <item name="propertiesAnno" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="annotationBean" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +303,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learn.spring.annotationBean.generic" />
       <recent name="com.test.annotationBean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\springBootLearn\chapter01\src\main\java\com\learn\spring\annotationBean\generic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PropertyConfigTest.testProperties">
+  <component name="RunManager" selected="JUnit.GenAutowiredDemoTest.testGenStore">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -305,6 +362,29 @@
       <option name="PACKAGE_NAME" value="com.test.annotationBean" />
       <option name="MAIN_CLASS_NAME" value="com.test.annotationBean.ConfigurationTest" />
       <option name="METHOD_NAME" value="testConfiguration" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GenAutowiredDemoTest.testGenStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.annotationBean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test.annotationBean" />
+      <option name="MAIN_CLASS_NAME" value="com.test.annotationBean.GenAutowiredDemoTest" />
+      <option name="METHOD_NAME" value="testGenStore" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -404,9 +484,11 @@
       <item itemvalue="JUnit.QualifyDemoTest.testQualify" />
       <item itemvalue="JUnit.ConfigurationTest.testConfiguration" />
       <item itemvalue="JUnit.PropertyConfigTest.testProperties" />
+      <item itemvalue="JUnit.GenAutowiredDemoTest.testGenStore" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenAutowiredDemoTest.testGenStore" />
         <item itemvalue="JUnit.PropertyConfigTest.testProperties" />
         <item itemvalue="JUnit.ConfigurationTest.testConfiguration" />
         <item itemvalue="JUnit.QualifyDemoTest.testQualify" />
@@ -425,26 +507,11 @@
       <option name="presentableId" value="Default" />
       <updated>1540998577285</updated>
       <workItem from="1540998582803" duration="24000" />
-      <workItem from="1541316074294" duration="3495000" />
+      <workItem from="1541316074294" duration="6146000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QualifyDemoTest_testQualify - 2018.11.04 at 15h 36m 15s.xml">
-      <configuration name="QualifyDemoTest.testQualify" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QualifyDemoTest_testQualify - 2018.11.04 at 15h 37m 32s.xml">
-      <configuration name="QualifyDemoTest.testQualify" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_testConfiguration - 2018.11.04 at 15h 52m 37s.xml">
-      <configuration name="ConfigurationTest.testConfiguration" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_testConfiguration - 2018.11.04 at 15h 54m 49s.xml">
-      <configuration name="ConfigurationTest.testConfiguration" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_testConfiguration - 2018.11.04 at 15h 55m 25s.xml">
-      <configuration name="ConfigurationTest.testConfiguration" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConfigurationTest_testConfiguration - 2018.11.04 at 15h 58m 10s.xml">
       <configuration name="ConfigurationTest.testConfiguration" configurationId="JUnit" />
     </history-entry>
@@ -460,12 +527,27 @@
     <history-entry file="PropertyConfigTest_testProperties - 2018.11.04 at 16h 16m 25s.xml">
       <configuration name="PropertyConfigTest.testProperties" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PropertyConfigTest_testProperties - 2018.11.04 at 16h 19m 44s.xml">
+      <configuration name="PropertyConfigTest.testProperties" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenAutowiredDemoTest_testGenStore - 2018.11.04 at 17h 05m 53s.xml">
+      <configuration name="GenAutowiredDemoTest.testGenStore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenAutowiredDemoTest_testGenStore - 2018.11.04 at 17h 07m 08s.xml">
+      <configuration name="GenAutowiredDemoTest.testGenStore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenAutowiredDemoTest_testGenStore - 2018.11.04 at 17h 10m 07s.xml">
+      <configuration name="GenAutowiredDemoTest.testGenStore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenAutowiredDemoTest_testGenStore - 2018.11.04 at 17h 11m 17s.xml">
+      <configuration name="GenAutowiredDemoTest.testGenStore" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3519000" />
+    <option name="totallyTimeSpent" value="6170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -485,11 +567,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33560863" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39666668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -576,28 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StringStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/ConfigurationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -605,36 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/propertiesAnno/MyPropertyManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/PropertyConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,14 +681,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/propertiesAnno/PropertyConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="102">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#543#551#1" expanded="true" />
-            <element signature="e#697#715#1" expanded="true" />
+            <element signature="e#758#776#1" expanded="true" />
             <element signature="e#693#694#0" expanded="true" />
             <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/PropertyConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StringStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenIntegerStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStringStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/TestStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/GenAutowiredDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/bean/StoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
