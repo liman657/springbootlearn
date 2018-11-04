@@ -20,5 +20,4 @@ public class StoreConfig {
     public Store getStringStore(){
         return new StringStore();
     }
-
 }
