@@ -19,26 +19,26 @@ public class AutoWiredDemo03 {
      * 注入的数组，可以配置order注解使用
      */
     @Autowired
-    public List<autowiredInterface> autointerfaceList;
+    public List<AutowiredInterface> autointerfaceList;
 
     /**
      * autowired注入map属性，默认的key是类名首字母小写，value是指定对象
      */
     @Autowired
-    public Map<String,autowiredInterface> autowiredMaps;
+    public Map<String,AutowiredInterface> autowiredMaps;
 
     public void print(){
         if(null != autointerfaceList){
             System.out.println(autointerfaceList.size());
 
-            for(autowiredInterface entry:autointerfaceList){
+            for(AutowiredInterface entry:autointerfaceList){
                 entry.testAutowiredArray();
             }
         }
 
         if(null!= autowiredMaps){
             System.out.println(autowiredMaps.size());
-            for(Map.Entry<String,autowiredInterface> entry:autowiredMaps.entrySet()){
+            for(Map.Entry<String,AutowiredInterface> entry:autowiredMaps.entrySet()){
                 System.out.println(entry.getKey());
                 entry.getValue().testAutowiredArray();
             }

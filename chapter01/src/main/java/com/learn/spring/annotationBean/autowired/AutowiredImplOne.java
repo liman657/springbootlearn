@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Order(2)
-public class AutowiredImplOne implements autowiredInterface{
+public class AutowiredImplOne implements AutowiredInterface {
     @Override
     public void testAutowiredArray() {
         System.out.println("this is autowiredImplone");

@@ -6,7 +6,7 @@ package com.learn.spring.annotationBean.autowired;
  * mail:657271181@qq.com
  * comment:
  */
-public interface autowiredInterface {
+public interface AutowiredInterface {
 
     public void testAutowiredArray();
 
