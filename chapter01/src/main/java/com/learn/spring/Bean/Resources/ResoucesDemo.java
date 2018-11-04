@@ -13,7 +13,7 @@ import java.io.IOException;
  * mobilNo:15528212893
  * mail:657271181@qq.com
  * comment:
- * 常用于读取相关的resource配置文件
+ * 获取ApplicationContext对象，与容器进行简单交互
  */
 public class ResoucesDemo implements ApplicationContextAware {
 
