@@ -22,10 +22,11 @@ public class PropertyConfig {
     @Value("${url}")
     private String url;
 
-    @Value("${username}")
+    //如果配置中直接用username,读取到的是当前电脑的用户名
+    @Value("${user.username}")
     private String username;
 
-    @Value("${password}")
+    @Value("${user.password}")
     private String password;
 
     @Bean("myPropertyManager")
