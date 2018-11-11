@@ -9,29 +9,21 @@
        http://www.springframework.org/schema/context/spring-context.xsd
 http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop.xsd">
-
+    <!--所有通过配置文件配置的Aspects，只支持singleton的模式-->
 
     <bean id="aspectDemo" class="com.learn.spring.AOP.AspectDemo"></bean>
 
     <bean id="aspectTarget" class="com.learn.spring.AOP.AspectTarget"/>
 
+    <bean id="fit" class="com.learn.spring.AOP.Introductions.FitImpl"/>
 
     <aop:config>
         <aop:aspect id="aopDemo" ref="aspectDemo">
-            <aop:pointcut id="pointCutOne"
-                          expression="execution(* com.learn.spring.AOP.AspectTarget.*(..))"></aop:pointcut>
 
-            <aop:before method="beforeMethod" pointcut-ref="pointCutOne"/>
-
-            <aop:after-returning method="afterReturning" pointcut-ref="pointCutOne"></aop:after-returning>
-
-            <aop:after-throwing method="afterThrowing" pointcut-ref="pointCutOne"></aop:after-throwing>
-
-            <aop:after method="after" pointcut-ref="pointCutOne"></aop:after>
-            
-            <aop:around method="aroundMethod" pointcut-ref="pointCutOne"></aop:around>
-
-            <aop:around method="aroundInit" pointcut="execution(* com.learn.spring.AOP.AspectTarget.init(String,int)) and args(bizName,times)"></aop:around>
+            <!--申明所有匹配的类型，有一个新的父类-->
+            <aop:declare-parents types-matching="com.learn.spring.AOP.AspectTarget"
+                                 implement-interface="com.learn.spring.AOP.Introductions.Fit"
+                                 default-impl="com.learn.spring.AOP.Introductions.FitImpl"></aop:declare-parents>
         </aop:aspect>
     </aop:config>
 </beans>

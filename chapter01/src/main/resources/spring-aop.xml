@@ -21,8 +21,6 @@ http://www.springframework.org/schema/aop
             <aop:pointcut id="pointCutOne"
                           expression="execution(* com.learn.spring.AOP.AspectTarget.*(..))"></aop:pointcut>
 
-
-
             <aop:before method="beforeMethod" pointcut-ref="pointCutOne"/>
 
             <aop:after-returning method="afterReturning" pointcut-ref="pointCutOne"></aop:after-returning>
