@@ -62,7 +62,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntroductionTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="183" column="81" selection-start-line="183" selection-start-column="75" selection-end-line="183" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntroductionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/AopTest/IntroductionTest/IntroductionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
@@ -70,6 +79,24 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-annotationBean.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-annotationBean.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-aspectJ.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aspectJ.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -83,6 +110,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>aspect</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -116,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/AOP/Introductions/FitImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-aop-introduction.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/test/AopTest/IntroductionTest/IntroductionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aspectJ.xml" />
       </list>
     </option>
   </component>
@@ -128,8 +161,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -195,17 +227,6 @@
               <item name="chapter01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="AOP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,17 +268,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="AopTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="AopTest" type="462c0819:PsiDirectoryNode" />
-              <item name="IntroductionTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,7 +499,7 @@
       <workItem from="1541766188503" duration="2948000" />
       <workItem from="1541769820552" duration="3178000" />
       <workItem from="1541773510450" duration="54000" />
-      <workItem from="1541935951479" duration="8763000" />
+      <workItem from="1541935951479" duration="11360000" />
     </task>
     <servers />
   </component>
@@ -526,10 +536,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22169000" />
+    <option name="totallyTimeSpent" value="24766000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -549,11 +559,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32290503" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287827" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16791044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -879,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4608">
-          <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
@@ -959,6 +962,27 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-annotationBean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="183" column="81" selection-start-line="183" selection-start-column="75" selection-end-line="183" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aspectJ.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
