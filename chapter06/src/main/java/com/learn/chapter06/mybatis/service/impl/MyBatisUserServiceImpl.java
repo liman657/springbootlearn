@@ -5,6 +5,9 @@ import com.learn.chapter06.mybatis.POJO.User;
 import com.learn.chapter06.mybatis.service.MyBatisUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
+
 
 /**
  * autor:liman
@@ -21,5 +24,10 @@ public class MyBatisUserServiceImpl implements MyBatisUserService {
     @Override
     public User getUser(Long id) {
         return myBatisUserDao.getUser(id);
+    }
+
+    @Transactional(isolation=Isolation.READ_COMMITTED,timeout=1)
+    public int insertUser(User user){
+        return myBatisUserDao.insertUser(user);
     }
 }

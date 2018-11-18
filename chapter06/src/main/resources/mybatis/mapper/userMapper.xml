@@ -3,7 +3,11 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.learn.chapter06.dao.mybatis.mapper.MyBatisUserDao">
-<select id="getUser" parameterType="long" resultType="user">
+    <select id="getUser" parameterType="long" resultType="user">
         select id,sex,user_name,note from t_user where id = #{id}
     </select>
+
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into t_user(user_name,note) value (#{userName},#{note})
+    </insert>
 </mapper>

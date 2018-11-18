@@ -11,4 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public interface MyBatisUserService{
     public User getUser(Long id);
+
+    public int insertUser(User user);
 }
