@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Jedis/Jedis.iml" filepath="$PROJECT_DIR$/../Jedis/Jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter01.iml" filepath="$PROJECT_DIR$/chapter01.iml" />
       <module fileurl="file://$PROJECT_DIR$/../chapter06/chapter06.iml" filepath="$PROJECT_DIR$/../chapter06/chapter06.iml" />
     </modules>
