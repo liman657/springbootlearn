@@ -9,7 +9,8 @@ import org.springframework.beans.factory.InitializingBean;
  * mail:657271181@qq.com
  * comment:
  */
-public class LifeCycleDemo implements DisposableBean,InitializingBean {
+public class LifeCycleDemo implements DisposableBean,InitializingBean
+{
 
     //当同时使用了三种方式，这种全局的方式会被覆盖掉
     public void defaultInitMethod(){

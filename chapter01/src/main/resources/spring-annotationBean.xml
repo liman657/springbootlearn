@@ -11,5 +11,5 @@
     <!--<context:annotation-config/>-->
 
     <!--注解的扫描类，包含了context:annotation-config，一般用了这个，就不用context:annotation-config-->
-    <context:component-scan base-package="com.learn.spring.annotationBean"/>
+    <context:component-scan base-package="com.learn.spring.annotationBean.bean"/>
 </beans>
