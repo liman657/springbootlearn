@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../chapter06/pom.xml" />
         <option value="$PROJECT_DIR$/../Jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/../chapter07/pom.xml" />
       </list>
     </option>
   </component>
