@@ -7,6 +7,7 @@
     <ignored path="$PROJECT_DIR$/../chapter06/target/" />
     <ignored path="$PROJECT_DIR$/../Jedis/target/" />
     <ignored path="$PROJECT_DIR$/../chapter07/target/" />
+    <ignored path="$PROJECT_DIR$/../json/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,57 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Chapter07Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/Chapter07Application.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JSONDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="733">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/redis/controller/RedisController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2001#2016#0" expanded="true" />
-                <element signature="e#2429#2444#0" expanded="true" />
-                <element signature="e#3284#3299#0" expanded="true" />
-                <element signature="e#4434#4442#0" expanded="true" />
-                <element signature="e#5048#5063#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/config/RedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisConfigTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../chapter07/src/test/java/com/learn/chapter07/RedisConfigTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="25" selection-start-line="25" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/learn/spring/AOP/Introductions/FitImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-aop-introduction.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/test/AopTest/IntroductionTest/IntroductionTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-aspectJ.xml" />
         <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/component/DataSourceShow.java" />
@@ -141,6 +98,8 @@
         <option value="$PROJECT_DIR$/../chapter07/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/Chapter07Application.java" />
         <option value="$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/redis/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/../json/pom.xml" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java" />
       </list>
     </option>
   </component>
@@ -160,11 +119,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -176,146 +134,29 @@
           <expand>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="injection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -323,7 +164,7 @@
             </path>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -332,157 +173,32 @@
             </path>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Jedis" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,32 +242,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Chapter07Application">
-    <configuration default="true" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.JSONDemo">
+    <configuration name="JSONDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.json.JSONDemo.JSONDemo" />
+      <module name="json" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="LifeCycleTest.testLifeCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.annotationBean.*" />
+          <option name="PATTERN" value="com.learn.json.JSONDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.test.annotationBean" />
-      <option name="MAIN_CLASS_NAME" value="com.test.annotationBean.LifeCycleTest" />
-      <option name="METHOD_NAME" value="testLifeCycle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="RedisConfigTest.testRedisCallBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter07" />
@@ -669,6 +373,10 @@
       <module name="chapter07" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.chapter07.Chapter07Application" />
     </configuration>
+    <configuration name="JsonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="json" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.json.JsonApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -693,20 +401,21 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Chapter06Application" />
-      <item itemvalue="JUnit.LifeCycleTest.testLifeCycle" />
       <item itemvalue="Spring Boot.Chapter07Application" />
+      <item itemvalue="Spring Boot.JsonApplication" />
       <item itemvalue="JUnit.RedisTemplateTest.testRedisConnection" />
       <item itemvalue="JUnit.RedisConfigTest.testRedisConfig" />
       <item itemvalue="JUnit.RedisConfigTest.testRedisCallBack" />
       <item itemvalue="JUnit.RedisConfigTest.testSessionCallBack" />
+      <item itemvalue="Application.JSONDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JSONDemo" />
         <item itemvalue="JUnit.RedisConfigTest.testSessionCallBack" />
         <item itemvalue="JUnit.RedisConfigTest.testRedisCallBack" />
         <item itemvalue="JUnit.RedisConfigTest.testRedisConfig" />
         <item itemvalue="JUnit.RedisTemplateTest.testRedisConnection" />
-        <item itemvalue="JUnit.LifeCycleTest.testLifeCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -729,7 +438,8 @@
       <workItem from="1541935951479" duration="36271000" />
       <workItem from="1542631783979" duration="16270000" />
       <workItem from="1543502055781" duration="74000" />
-      <workItem from="1543649804050" duration="26550000" />
+      <workItem from="1543649804050" duration="30922000" />
+      <workItem from="1543846328714" duration="1234000" />
     </task>
     <servers />
   </component>
@@ -766,10 +476,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92571000" />
+    <option name="totallyTimeSpent" value="98177000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -784,7 +494,6 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -793,7 +502,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.33902162" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24253732" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.79310346" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -801,6 +510,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -825,20 +535,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/dao/mybatis/mapper/MyBatisUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/controller/MyBatisController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -983,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="17" selection-start-line="17" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,9 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#1197#1198#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,11 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="25" column="28" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,10 +829,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/redis/controller.java">
+    <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/redis/controller.java" />
+    <entry file="file://$PROJECT_DIR$/../chapter07/src/test/java/com/learn/chapter07/Chapter07ApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="288">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1158,16 +844,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter07/src/test/java/com/learn/chapter07/Chapter07ApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/../chapter07/src/test/java/com/learn/chapter07/RedisConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="245">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/Chapter07Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="313">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1179,35 +878,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/redis/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2001#2016#0" expanded="true" />
-            <element signature="e#2429#2444#0" expanded="true" />
-            <element signature="e#3284#3299#0" expanded="true" />
-            <element signature="e#4434#4442#0" expanded="true" />
-            <element signature="e#5048#5063#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="311">
+          <caret line="44" column="37" lean-forward="true" selection-end-line="173" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/../json/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="581">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter07/src/test/java/com/learn/chapter07/RedisConfigTest.java">
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="25" selection-start-line="25" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="733">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
           </folding>
         </state>
       </provider>
