@@ -17,14 +17,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JSONDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java">
+      <file leaf-file-name="GSONDeserializeDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="108">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonWithList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+              <folding>
+                <element signature="e#1603#1604#0" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+                <element signature="e#1679#1680#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonWithDate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
+                <element signature="e#1871#1872#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,13 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/test/AopTest/IntroductionTest/IntroductionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-aspectJ.xml" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/component/DataSourceShow.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/Enum/SexEnum.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/pojo/User.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/JdbcTemplate/JdbcTmplUserService.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/JdbcTemplate/impl/JdbcTmplUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../chapter06/pom.xml" />
         <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/JPA/POJO/User.java" />
         <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/JPA/POJO/SexConverter.java" />
@@ -98,8 +135,15 @@
         <option value="$PROJECT_DIR$/../chapter07/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/Chapter07Application.java" />
         <option value="$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/redis/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/../json/pom.xml" />
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/readJson/ReadJsonDemo.java" />
+        <option value="$PROJECT_DIR$/../json/src/main/resources/person.json" />
+        <option value="$PROJECT_DIR$/../json/pom.xml" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDemo.java" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithList.java" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java" />
       </list>
     </option>
   </component>
@@ -119,7 +163,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
@@ -192,13 +236,56 @@
               <item name="json" type="462c0819:PsiDirectoryNode" />
               <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GSON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="readJson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,20 +301,23 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\springBootLearn\chapter01\src\main\resources" />
-      <recent name="F:\springBootLearn\chapter06\src\main\resources" />
-      <recent name="F:\springBootLearn\chapter01\src\main\java\com\learn\spring\AOP" />
-      <recent name="F:\springBootLearn\chapter01\src\main\java\com\learn\spring\annotationBean\generic" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\springBootLearn\json\src\main\resources" />
+      <recent name="F:\springBootLearn\chapter06\src\main\resources\mybatis\mapper" />
+      <recent name="F:\springBootLearn\chapter06\src\main\resources\mybatis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learn.json.JSONDemo.bean" />
       <recent name="com.test.AopTest" />
       <recent name="com.learn.spring.annotationBean.generic" />
       <recent name="com.test.annotationBean" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\springBootLearn\chapter06\src\main\resources\mybatis\mapper" />
-      <recent name="F:\springBootLearn\chapter06\src\main\resources\mybatis" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\springBootLearn\json\src\main\java\com\learn\json\JSONDemo" />
+      <recent name="F:\springBootLearn\chapter01\src\main\resources" />
+      <recent name="F:\springBootLearn\chapter06\src\main\resources" />
+      <recent name="F:\springBootLearn\chapter01\src\main\java\com\learn\spring\AOP" />
+      <recent name="F:\springBootLearn\chapter01\src\main\java\com\learn\spring\annotationBean\generic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,7 +332,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JSONDemo">
+  <component name="RunManager" selected="Application.GSONDeserializeDemo">
+    <configuration name="GSONDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.json.JSONDemo.GSON.GSONDemo" />
+      <module name="json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.json.JSONDemo.GSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GSONDeserializeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.json.JSONDemo.GSON.GSONDeserializeDemo" />
+      <module name="json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.json.JSONDemo.GSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="JSONDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.json.JSONDemo.JSONDemo" />
       <module name="json" />
@@ -254,54 +366,19 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="ReadJsonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.json.JSONDemo.readJson.ReadJsonDemo" />
+      <module name="json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.json.JSONDemo.readJson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="RedisConfigTest.testRedisCallBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.chapter07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.chapter07" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.chapter07.RedisConfigTest" />
-      <option name="METHOD_NAME" value="testRedisCallBack" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RedisConfigTest.testRedisConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.chapter07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.chapter07" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.chapter07.RedisConfigTest" />
-      <option name="METHOD_NAME" value="testRedisConfig" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="RedisConfigTest.testSessionCallBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter07" />
@@ -316,29 +393,6 @@
       <option name="PACKAGE_NAME" value="com.learn.chapter07" />
       <option name="MAIN_CLASS_NAME" value="com.learn.chapter07.RedisConfigTest" />
       <option name="METHOD_NAME" value="testSessionCallBack" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RedisTemplateTest.testRedisConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.Redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.test.Redis" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Redis.RedisTemplateTest" />
-      <option name="METHOD_NAME" value="testRedisConnection" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -403,19 +457,19 @@
       <item itemvalue="Spring Boot.Chapter06Application" />
       <item itemvalue="Spring Boot.Chapter07Application" />
       <item itemvalue="Spring Boot.JsonApplication" />
-      <item itemvalue="JUnit.RedisTemplateTest.testRedisConnection" />
-      <item itemvalue="JUnit.RedisConfigTest.testRedisConfig" />
-      <item itemvalue="JUnit.RedisConfigTest.testRedisCallBack" />
       <item itemvalue="JUnit.RedisConfigTest.testSessionCallBack" />
       <item itemvalue="Application.JSONDemo" />
+      <item itemvalue="Application.ReadJsonDemo" />
+      <item itemvalue="Application.GSONDemo" />
+      <item itemvalue="Application.GSONDeserializeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GSONDeserializeDemo" />
+        <item itemvalue="Application.GSONDemo" />
+        <item itemvalue="Application.ReadJsonDemo" />
         <item itemvalue="Application.JSONDemo" />
         <item itemvalue="JUnit.RedisConfigTest.testSessionCallBack" />
-        <item itemvalue="JUnit.RedisConfigTest.testRedisCallBack" />
-        <item itemvalue="JUnit.RedisConfigTest.testRedisConfig" />
-        <item itemvalue="JUnit.RedisTemplateTest.testRedisConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +493,8 @@
       <workItem from="1542631783979" duration="16270000" />
       <workItem from="1543502055781" duration="74000" />
       <workItem from="1543649804050" duration="30922000" />
-      <workItem from="1543846328714" duration="1234000" />
+      <workItem from="1543846328714" duration="1830000" />
+      <workItem from="1543928265261" duration="5976000" />
     </task>
     <servers />
   </component>
@@ -476,7 +531,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98177000" />
+    <option name="totallyTimeSpent" value="104749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -494,15 +549,16 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32764506" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33902162" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23094426" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.79310346" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45222223" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -510,7 +566,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -535,55 +590,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/controller/MyBatisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/mybatis/service/MyBatisUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/mybatis/service/impl/MyBatisUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/dao/mybatis/mapper/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/resources/mybatis/mapper/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/transaction/service/UserBatchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/transaction/service/impl/UserBatchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -837,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter07/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../chapter07/src/test/java/com/learn/chapter07/RedisConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -883,20 +882,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter07/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/resources/person.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../json/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        <state relative-caret-position="450">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="114">
+          <caret line="79" column="50" lean-forward="true" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
           <folding>
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/readJson/ReadJsonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="21" column="58" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+          <folding>
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
