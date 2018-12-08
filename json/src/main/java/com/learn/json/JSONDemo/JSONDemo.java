@@ -71,6 +71,9 @@ public class JSONDemo {
 
     }
 
+    /**
+     * 利用javaBean构建json对象
+     */
     private static void createJsonObjectFromBean(){
         Person person = new Person();
         person.setName("王小二");

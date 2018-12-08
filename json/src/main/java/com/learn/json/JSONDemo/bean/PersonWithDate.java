@@ -12,7 +12,6 @@ import java.util.Date;
  */
 public class PersonWithDate {
 
-//    @SerializedName("NAME") //这个注解来自于GSON，可以允许名称自定义
     private String name;
     private String school;
     private boolean hasGirlFriend;

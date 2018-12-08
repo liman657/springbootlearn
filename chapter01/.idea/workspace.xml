@@ -17,13 +17,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GSONDeserializeDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java">
+      <file leaf-file-name="JSONDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="445">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadJsonDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/readJson/ReadJsonDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonWithDate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
+                <element signature="e#1742#1743#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,8 +70,8 @@
       <file leaf-file-name="PersonWithList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+            <state relative-caret-position="312">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="e#1603#1604#0" expanded="true" />
                 <element signature="e#1631#1632#0" expanded="true" />
@@ -44,31 +82,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonWithDate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java">
+      <file leaf-file-name="GSONDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="144">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-                <element signature="e#1871#1872#0" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
-                <element signature="e#1957#1958#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java">
+      <file leaf-file-name="GSONDeserializeDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+            <state relative-caret-position="552">
+              <caret line="23" column="29" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,14 +167,14 @@
         <option value="$PROJECT_DIR$/../chapter07/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/Chapter07Application.java" />
         <option value="$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/redis/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java" />
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/readJson/ReadJsonDemo.java" />
         <option value="$PROJECT_DIR$/../json/src/main/resources/person.json" />
         <option value="$PROJECT_DIR$/../json/pom.xml" />
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDemo.java" />
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java" />
-        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java" />
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithList.java" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java" />
+        <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java" />
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java" />
       </list>
     </option>
@@ -164,7 +196,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+    <option name="x" value="2010" />
+    <option name="y" value="-8" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -272,13 +305,6 @@
               <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
               <item name="readJson" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -332,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GSONDeserializeDemo">
+  <component name="RunManager" selected="Application.GSONDemo">
     <configuration name="GSONDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.json.JSONDemo.GSON.GSONDemo" />
       <module name="json" />
@@ -465,10 +491,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GSONDeserializeDemo" />
         <item itemvalue="Application.GSONDemo" />
-        <item itemvalue="Application.ReadJsonDemo" />
         <item itemvalue="Application.JSONDemo" />
+        <item itemvalue="Application.GSONDeserializeDemo" />
+        <item itemvalue="Application.ReadJsonDemo" />
         <item itemvalue="JUnit.RedisConfigTest.testSessionCallBack" />
       </list>
     </recent_temporary>
@@ -494,7 +520,7 @@
       <workItem from="1543502055781" duration="74000" />
       <workItem from="1543649804050" duration="30922000" />
       <workItem from="1543846328714" duration="1830000" />
-      <workItem from="1543928265261" duration="5976000" />
+      <workItem from="1543928265261" duration="12679000" />
     </task>
     <servers />
   </component>
@@ -531,11 +557,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104749000" />
+    <option name="totallyTimeSpent" value="111452000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -555,10 +580,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23094426" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11284916" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45222223" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -905,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="79" column="50" lean-forward="true" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+        <state relative-caret-position="445">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -915,54 +940,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/readJson/ReadJsonDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="58" />
+        <state relative-caret-position="402">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+        <state relative-caret-position="312">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#1631#1632#0" expanded="true" />
@@ -972,10 +961,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        <state relative-caret-position="552">
+          <caret line="23" column="29" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
