@@ -9,6 +9,7 @@
         <module name="chapter01" />
         <module name="chapter06" />
         <module name="chapter07" />
+        <module name="chapter09" />
         <module name="Jedis" />
         <module name="json" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="chapter01" target="1.7" />
       <module name="chapter06" target="1.8" />
       <module name="chapter07" target="1.8" />
+      <module name="chapter09" target="1.8" />
       <module name="Jedis" target="1.5" />
       <module name="json" target="1.8" />
     </bytecodeTargetLevel>

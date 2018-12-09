@@ -8,6 +8,7 @@
     <ignored path="$PROJECT_DIR$/../Jedis/target/" />
     <ignored path="$PROJECT_DIR$/../chapter07/target/" />
     <ignored path="$PROJECT_DIR$/../json/target/" />
+    <ignored path="$PROJECT_DIR$/../chapter09/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,88 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JSONDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java">
+      <file leaf-file-name="Chapter09Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/Chapter09Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadJsonDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/readJson/ReadJsonDemo.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonWithDate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1712#1713#0" expanded="true" />
-                <element signature="e#1742#1743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonWithList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="43" />
-              <folding>
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1679#1680#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GSONDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GSONDeserializeDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="29" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="42">
+              <caret line="22" column="14" lean-forward="true" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,13 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../chapter06/pom.xml" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/JPA/POJO/User.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/JPA/POJO/SexConverter.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/dao/JpaUserRepository.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/controller/JpaController.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/mybatis/POJO/SexTypeHandler.java" />
-        <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/controller/MyBatisController.java" />
         <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/dao/mybatis/MyBatisUserDao.java" />
         <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/Chapter06Application.java" />
         <option value="$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/mybatis/POJO/User.java" />
@@ -176,6 +102,13 @@
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/JSONDemo.java" />
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java" />
         <option value="$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java" />
+        <option value="$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/domain/User.java" />
+        <option value="$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../chapter09/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../chapter09/pom.xml" />
+        <option value="$PROJECT_DIR$/../chapter09/src/main/webapp/WEB-INF/jsp/user/table.jsp" />
+        <option value="$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/Chapter09Application.java" />
       </list>
     </option>
   </component>
@@ -196,8 +129,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2010" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -206,115 +138,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="GSON" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="JSONDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="readJson" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -324,13 +165,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter07/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\springBootLearn\json\src\main\resources" />
-      <recent name="F:\springBootLearn\chapter06\src\main\resources\mybatis\mapper" />
-      <recent name="F:\springBootLearn\chapter06\src\main\resources\mybatis" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\springBootLearn\chapter09\src\main\webapp" />
+      <recent name="F:\springBootLearn\chapter09\src\webapp" />
+      <recent name="F:\springBootLearn\json\src\main\java\com\learn\json\JSONDemo" />
+      <recent name="F:\springBootLearn\chapter01\src\main\resources" />
+      <recent name="F:\springBootLearn\chapter06\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.learn.json.JSONDemo.bean" />
@@ -338,12 +184,10 @@
       <recent name="com.learn.spring.annotationBean.generic" />
       <recent name="com.test.annotationBean" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\springBootLearn\json\src\main\java\com\learn\json\JSONDemo" />
-      <recent name="F:\springBootLearn\chapter01\src\main\resources" />
-      <recent name="F:\springBootLearn\chapter06\src\main\resources" />
-      <recent name="F:\springBootLearn\chapter01\src\main\java\com\learn\spring\AOP" />
-      <recent name="F:\springBootLearn\chapter01\src\main\java\com\learn\spring\annotationBean\generic" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\springBootLearn\json\src\main\resources" />
+      <recent name="F:\springBootLearn\chapter06\src\main\resources\mybatis\mapper" />
+      <recent name="F:\springBootLearn\chapter06\src\main\resources\mybatis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GSONDemo">
+  <component name="RunManager" selected="Spring Boot.Chapter09Application">
     <configuration name="GSONDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.json.JSONDemo.GSON.GSONDemo" />
       <module name="json" />
@@ -453,6 +297,12 @@
       <module name="chapter07" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.chapter07.Chapter07Application" />
     </configuration>
+    <configuration name="Chapter09Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter09" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.chapter09.Chapter09Application" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="JsonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="json" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.json.JsonApplication" />
@@ -483,11 +333,12 @@
       <item itemvalue="Spring Boot.Chapter06Application" />
       <item itemvalue="Spring Boot.Chapter07Application" />
       <item itemvalue="Spring Boot.JsonApplication" />
-      <item itemvalue="JUnit.RedisConfigTest.testSessionCallBack" />
+      <item itemvalue="Spring Boot.Chapter09Application" />
       <item itemvalue="Application.JSONDemo" />
       <item itemvalue="Application.ReadJsonDemo" />
       <item itemvalue="Application.GSONDemo" />
       <item itemvalue="Application.GSONDeserializeDemo" />
+      <item itemvalue="JUnit.RedisConfigTest.testSessionCallBack" />
     </list>
     <recent_temporary>
       <list>
@@ -557,7 +408,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111452000" />
+    <option name="totallyTimeSpent" value="120308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -569,7 +420,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5016779" side_tool="true" weight="0.22761194" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
@@ -580,20 +431,45 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11284916" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33407822" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.22761194" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11284916" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,69 +491,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../chapter06/src/main/java/com/learn/chapter06/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/Bean/scope/BeanScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/BeanAnnotationDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/BeanAnnotationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/annotationBean/ConfigurationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenIntegerStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/TestStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/spring/annotationBean/generic/GenStoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/beanScope/autowriting/AutowritingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -878,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/Chapter07Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -950,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="1728">
+          <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
           <folding>
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#1631#1632#0" expanded="true" />
@@ -963,12 +766,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/PersonWithDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="1224">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/bean/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="1584">
+          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -995,8 +796,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../json/src/main/java/com/learn/json/JSONDemo/GSON/GSONDeserializeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="29" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="269">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter07/src/main/java/com/learn/chapter07/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#279#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/src/webapp/WEB-INF/jsp/user/table.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/src/main/webapp/WEB-INF/jsp/user/details.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/src/main/webapp/WEB-INF/jsp/user/table.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/Chapter09Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter09/src/main/java/com/learn/chapter09/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="22" column="14" lean-forward="true" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1006,9 +907,82 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>chapter09:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (chapter09)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|chapter09</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
