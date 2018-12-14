@@ -2,6 +2,7 @@ package com.learn.chapter10.controller;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 
@@ -98,6 +99,21 @@ public class MyController {
 	@GetMapping("/format/form")
 	public String showFormat() {
 		return "/format/formatter";
+	}
+
+	@GetMapping("/converter")
+	@ResponseBody
+	public User getUserByConverter(@RequestParam User user){
+		return user;
+	}
+
+	@GetMapping("/converterList")
+	@ResponseBody
+	public List<User> getUserByConverter(@RequestParam List<User> userList){
+		for(User user:userList){
+			System.out.println(user);
+		}
+		return userList;
 	}
 
 //	// 获取提交参数
