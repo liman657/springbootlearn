@@ -7,10 +7,15 @@ import java.util.Map;
 
 
 import com.learn.chapter10.domain.User;
-import org.springframework.format.annotation.DateTimeFormat;
+import com.learn.chapter10.domain.ValidatorPojo;
 import org.springframework.format.annotation.NumberFormat;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.Errors;
+import org.springframework.validation.FieldError;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 
 
 @RequestMapping("/my")
@@ -52,7 +57,7 @@ public class MyController {
 	@GetMapping("/annotation")
 	@ResponseBody
 	public Map<String, Object> requestParam(@RequestParam("int_val") Integer intVal,
-			@RequestParam("long_val") Long longVal, @RequestParam("str_val") String strVal) {
+			@RequestParam(value = "long_val",required = false) Long longVal, @RequestParam("str_val") String strVal) {
 		Map<String, Object> paramsMap = new HashMap<>();
 		paramsMap.put("intVal", intVal);
 		paramsMap.put("longVal", longVal);
@@ -83,9 +88,9 @@ public class MyController {
 		return user;
 	}
 
-	@GetMapping("/{id}")
+	@GetMapping("/{userId}")
 	@ResponseBody
-	public User get(@PathVariable("id") Long id){
+	public User get(@PathVariable("userId") Long id){
 		User user = new User();
 		user.setId(id);
 		user.setUsername("liman");
@@ -116,7 +121,7 @@ public class MyController {
 		return userList;
 	}
 
-//	// 获取提交参数
+	// 获取提交参数
 //	@PostMapping("/format/commit")
 //	@ResponseBody
 //	public Map<String, Object> format(Date date,
@@ -153,28 +158,28 @@ public class MyController {
 	 * @param errors  错误信息，它由Spring MVC通过验证POJO后自动填充
 	 * @return 错误信息Map
 	 */
-//	@RequestMapping(value = "/valid/validate")
-//	@ResponseBody
-//	public Map<String, Object> validate(
-//	        @Valid @RequestBody ValidatorPojo vp, Errors errors) {
-//	    Map<String, Object> errMap = new HashMap<>();
-//	    // 获取错误列表
-//	    List<ObjectError> oes = errors.getAllErrors();
-//	    for (ObjectError oe : oes) {
-//	        String key = null;
-//	        String msg = null;
-//	        // 字段错误
-//	        if (oe instanceof FieldError) {
-//	            FieldError fe = (FieldError) oe;
-//	            key = fe.getField();// 获取错误验证字段名
-//	        } else {
-//	            // 非字段错误
-//	            key = oe.getObjectName();// 获取验证对象名称
-//	        }
-//	        // 错误信息
-//	        msg = oe.getDefaultMessage();
-//	        errMap.put(key, msg);
-//	    }
-//	    return errMap;
-//	}
+	@RequestMapping(value = "/valid/validate")
+	@ResponseBody
+	public Map<String, Object> validate(
+            @Valid @RequestBody ValidatorPojo vp, Errors errors) {
+	    Map<String, Object> errMap = new HashMap<>();
+	    // 获取错误列表
+	    List<ObjectError> oes = errors.getAllErrors();
+	    for (ObjectError oe : oes) {
+	        String key = null;
+	        String msg = null;
+	        // 字段错误
+	        if (oe instanceof FieldError) {
+	            FieldError fe = (FieldError) oe;
+	            key = fe.getField();// 获取错误验证字段名
+	        } else {
+	            // 非字段错误
+	            key = oe.getObjectName();// 获取验证对象名称
+	        }
+	        // 错误信息
+	        msg = oe.getDefaultMessage();
+	        errMap.put(key, msg);
+	    }
+	    return errMap;
+	}
 }

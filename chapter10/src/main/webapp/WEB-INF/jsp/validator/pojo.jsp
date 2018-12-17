@@ -10,13 +10,13 @@
 	$(document).ready(function() {
 		// 请求验证的POJO
 		var pojo = {
-			id : null,
-			date : '2017-08-08',
-			doubleValue : 999999.09,
-			integer : 100,
-			range : 1000,
-			email : 'email',
-			size : 'adv1212',
+			id : 1,
+			date : '2019-08-08',
+			doubleValue : 999.09,
+			integer : 80,
+			range : 80,
+			email : '657271181@qq.com',
+			size : '25liamnataoimdoasgasld',
 			regexp : 'a,b,c,d'
 		}
 		$.post({
@@ -27,6 +27,7 @@
 			data : JSON.stringify(pojo),
 			// 成功后的方法
 			success : function(result) {
+			    alert(result.date);
 			}
 		});
 	});

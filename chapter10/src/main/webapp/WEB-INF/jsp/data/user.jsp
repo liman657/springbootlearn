@@ -15,7 +15,7 @@ pageEncoding="UTF-8"%>
         </tr>
         <tr>
             <td>用户名</td>
-            <td>${user.userName}</td>
+            <td>${user.username}</td>
         </tr>
         <tr>
             <td>备注</td>

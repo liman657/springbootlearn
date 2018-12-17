@@ -27,5 +27,4 @@ public class StringToUserConverter implements Converter<String,User> {
 //        System.out.println(user.toString());
         return user;
     }
-
 }
