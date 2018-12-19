@@ -47,7 +47,4 @@ public class DataModelController {
         mv.setViewName("data/user");
         return mv;
     }
-
-
-
 }
