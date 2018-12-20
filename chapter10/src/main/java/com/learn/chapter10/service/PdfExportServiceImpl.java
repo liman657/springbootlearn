@@ -55,6 +55,7 @@ public class PdfExportServiceImpl implements PdfExportService{
             cell.setHorizontalAlignment(1);
             table.addCell(cell);
 
+            userService.initUserList();
             List<User> userList = userService.getUserList();
 
             for (User user : userList) {

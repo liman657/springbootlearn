@@ -1,7 +1,9 @@
 package com.learn.chapter10.controller;
 
 import com.learn.chapter10.domain.User;
+import com.learn.chapter10.service.PdfExportService;
 import com.learn.chapter10.validator.UserValidator;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.Errors;
@@ -31,6 +33,9 @@ import java.util.Map;
 @Controller
 @RequestMapping("/user")
 public class UserController {
+
+    @Autowired
+    private PdfExportService pdfExportService;
 
     //绑定逻辑验证器
     @InitBinder
@@ -63,7 +68,7 @@ public class UserController {
 
     @GetMapping("/export/pdf")
     public ModelAndView exportPdf(){
-        View view = new PdfView();
+        View view = new PdfView(pdfExportService);
         ModelAndView mv = new ModelAndView();
         mv.setView(view);
         return mv;
