@@ -11,10 +11,7 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.InitBinder;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
@@ -98,5 +95,17 @@ public class UserController {
         ModelAndView mv = new ModelAndView();
         mv.setViewName("redirect:/user/show?id=1");
         return mv;
+    }
+
+    @GetMapping("/header/page")
+    public String headerPage(){
+        return "header";
+    }
+
+    @PostMapping("/header/user")
+    @ResponseBody
+    public User headerUser(@RequestHeader("id") Long id){
+        System.out.println(id);
+        return userService.getUser(1L);
     }
 }
