@@ -10,7 +10,7 @@
     <body>
         <form method="post" 
                 action="./part" enctype="multipart/form-data">
-            <input type="file" name="file" value="请选择上传的文件" /> 
+            <input type="file" name="file" value="请选择上传的文件" />
             <input type="submit" value="提交" />
         </form>
     </body>
