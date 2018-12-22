@@ -17,13 +17,11 @@ import java.util.Map;
  * mail:657271181@qq.com
  * comment:
  */
+@Component
 public class PdfView extends AbstractPdfView {
 
+    @Autowired
     private PdfExportService pdfExportService;
-
-    public PdfView(PdfExportService pdfExportService){
-        this.pdfExportService = pdfExportService;
-    }
 
     @Override
     protected void buildPdfDocument(Map<String, Object> map, Document document, PdfWriter pdfWriter, HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {

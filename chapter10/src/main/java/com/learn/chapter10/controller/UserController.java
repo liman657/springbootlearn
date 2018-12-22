@@ -1,7 +1,6 @@
 package com.learn.chapter10.controller;
 
 import com.learn.chapter10.domain.User;
-import com.learn.chapter10.service.PdfExportService;
 import com.learn.chapter10.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.View;
 
 import javax.validation.Valid;
 import java.text.SimpleDateFormat;
@@ -35,7 +33,7 @@ import java.util.Map;
 public class UserController {
 
     @Autowired
-    private PdfExportService pdfExportService;
+    private PdfView pdfView;
 
     //绑定逻辑验证器
     @InitBinder
@@ -68,9 +66,8 @@ public class UserController {
 
     @GetMapping("/export/pdf")
     public ModelAndView exportPdf(){
-        View view = new PdfView(pdfExportService);
         ModelAndView mv = new ModelAndView();
-        mv.setView(view);
+        mv.setView(pdfView);
         return mv;
     }
 }
