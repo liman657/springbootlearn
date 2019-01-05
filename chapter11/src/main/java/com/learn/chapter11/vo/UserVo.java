@@ -47,4 +47,14 @@ public class UserVo {
 		this.note = note;
 	}
 
+	@Override
+	public String toString() {
+		return "UserVo{" +
+				"id=" + id +
+				", userName='" + userName + '\'' +
+				", sexCode=" + sexCode +
+				", sexName='" + sexName + '\'' +
+				", note='" + note + '\'' +
+				'}';
+	}
 }
