@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/chapter01" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter06" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter09" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter10" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter11" />
+    <file type="web" url="file://$PROJECT_DIR$/json" />
+    <file type="web" url="file://$PROJECT_DIR$/RabbitMQ" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/json/pom.xml" />
+        <option value="$PROJECT_DIR$/Jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/RabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter01/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter06/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter07/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter09/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter10/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter11/pom.xml" />
+        <option value="$PROJECT_DIR$/foundation/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootAop/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="JDK16" project-jdk-type="JavaSDK" />
+</project>

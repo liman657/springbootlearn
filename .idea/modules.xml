@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Jedis/Jedis.iml" filepath="$PROJECT_DIR$/Jedis/Jedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMQ/RabbitMQ.iml" filepath="$PROJECT_DIR$/RabbitMQ/RabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter01/chapter01.iml" filepath="$PROJECT_DIR$/chapter01/chapter01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter06/chapter06.iml" filepath="$PROJECT_DIR$/chapter06/chapter06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter07/chapter07.iml" filepath="$PROJECT_DIR$/chapter07/chapter07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter09/chapter09.iml" filepath="$PROJECT_DIR$/chapter09/chapter09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter10/chapter10.iml" filepath="$PROJECT_DIR$/chapter10/chapter10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter11/chapter11.iml" filepath="$PROJECT_DIR$/chapter11/chapter11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/foundation/foundation.iml" filepath="$PROJECT_DIR$/foundation/foundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json/json.iml" filepath="$PROJECT_DIR$/json/json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootAop/springbootAop.iml" filepath="$PROJECT_DIR$/springbootAop/springbootAop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springbootlearn.iml" filepath="$PROJECT_DIR$/.idea/springbootlearn.iml" />
+    </modules>
+  </component>
+</project>

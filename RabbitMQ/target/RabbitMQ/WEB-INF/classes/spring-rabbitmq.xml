@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/rabbit
+				        http://www.springframework.org/schema/rabbit/spring-rabbit-1.4.xsd">
+
+    <!-- 定义连接工厂,用于创建连接等 -->
+    <rabbit:connection-factory id="connectionFactory" username="guest" password="guest" host="localhost" port="15672"/>
+
+    <!-- 定义admin,producer中的exchange,queue会自动的利用该admin自动在spring中生成 -->
+    <rabbit:admin id="connAdmin" connection-factory="connectionFactory"/>
+
+    <!-- 定义rabbitmq模板,用于接收以及发送消息 -->
+    <rabbit:template id="amqpTemplate" connection-factory="connectionFactory" exchange="hjexchange"/>
+    <rabbit:template id="amqpTemplates" connection-factory="connectionFactory" exchange="directExchange"/>
+
+    <!-- 利用admin来定义队列,spring会自动根据下面的定义创建队列
+    	队列名	是否持久化	是否是排他队列	不使用的时候是否删除	declared-by ....(暂时还不太清楚,望大神指点)-->
+    <rabbit:queue name="test1" auto-delete="false" declared-by="connAdmin" durable="true" exclusive="false" auto-declare="true"/>
+    <rabbit:queue name="test2" auto-delete="false" declared-by="connAdmin" durable="true" exclusive="false" auto-declare="true"/>
+    <rabbit:queue name="test3" auto-delete="false" declared-by="connAdmin" durable="true" exclusive="false" auto-declare="true"/>
+
+    <!-- 定义Exchange,并且将队列与Exchange绑定,设定Routing Key -->
+    <!-- name为Echange的name -->
+    <rabbit:topic-exchange name="hjexchange" durable="true" declared-by="connAdmin" auto-delete="false">
+        <rabbit:bindings>
+            <!-- pattern 为Routing Key, queue为绑定的queue -->
+            <rabbit:binding pattern="topicKey.#" queue="test1"></rabbit:binding>
+            <rabbit:binding pattern="topicKeys.#" queue="test3"></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <!-- 同上 -->
+    <rabbit:direct-exchange name="directExchange" durable="true" declared-by="connAdmin" auto-delete="false">
+        <rabbit:bindings>
+            <rabbit:binding key="directKeys" queue="test2"></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+
+    <!-- 定义消费者,消费消息 -->
+    <bean id="directConsumer" class="com.learn.rabbitmq.consumer.DirectConsumer"></bean>
+    <bean id="topicConsumer" class="com.learn.rabbitmq.consumer.TopicConsumer"></bean>
+    <!--<bean id="topicsConsumer" class="com.demo.rabbitmq.consumer.TopicsConsumer"></bean>-->
+
+    <!--开启监听,也可以理解为:
+        将消费者与队列进行绑定,这样就会在,当队列有消息的时候,会由绑定的消费者来进行消费,
+        也可以算是指定消费者来监听指定的队列.当有消息到达的时候,通知消费者进行消费 -->
+    <rabbit:listener-container connection-factory="connectionFactory">
+        <!-- 注入bean,指定队列 -->
+        <rabbit:listener ref="topicConsumer" queues="test1"/>
+        <rabbit:listener ref="directConsumer" queues="test2"/>
+    </rabbit:listener-container>
+</beans>

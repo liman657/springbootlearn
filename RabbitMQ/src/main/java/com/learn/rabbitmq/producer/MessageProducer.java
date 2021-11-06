@@ -2,9 +2,11 @@ package com.learn.rabbitmq.producer;
 
 import org.apache.log4j.Logger;
 import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ImportResource;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
+//import javax.annotation.Resource;
 
 /**
  * autor:liman
@@ -19,10 +21,10 @@ public class MessageProducer {
 
     private Logger log = Logger.getLogger(MessageProducer.class);
 
-    @Resource(name="amqpTemplate")
+    @Autowired
     private AmqpTemplate amqpTemplate;
 
-    @Resource(name="amqpTemplates")
+    @Autowired
     private AmqpTemplate amqpTemplates;
 
     public void sendMessage(Object message) {

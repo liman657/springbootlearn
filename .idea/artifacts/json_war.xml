@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="json:war">
+    <output-path>$PROJECT_DIR$/json/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>json</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="json-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="json:war exploded" />
+    </root>
+  </artifact>
+</component>
